@@ -29,7 +29,7 @@ const Navbar = () => {
                 <nav className='hidden md:flex flex-row items-center text-2xl font-medium gap-8'>
                 <Link to="home" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Home</Link>
                  <div className='relative group '>
-                    <div className='flex flex-row items-center gap-1'>
+                    <div className='flex flex-row items-center gap-1 '>
                     <Link to="dishes" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Dishes</Link>
                     <BiChevronDown size={25} className="cursor-pointer"/>
                     </div>
